@@ -1,0 +1,3 @@
+backends = ["npm:sherif"]
+description = "Opinionated, zero-config linter for TypeScript & JavaScript monorepos."
+test = { cmd = "sherif --version", expected = "{{version}}" }
